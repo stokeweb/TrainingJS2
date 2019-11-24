@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<script>
+
+/* Задача 1
+var obj = {
+a:1,
+b:2,
+c:3
+}
+alert (obj.c);
+alert (obj["c"]);*/
+
+/* Задача 2
+const daysWeek = {
+1:'понедельник',
+2:'вторник',
+3:'среда',
+4:'четверг',
+5:'пятница',
+6:'суббота',
+7:'воскресенье'
+}
+alert(daysWeek['6']); */
+
+/* Задача 3
+let day=prompt("введите номер дня от 1 до 7") ;
+const daysWeek = {
+1:'понедельник',
+2:'вторник',
+3:'среда',
+4:'четверг',
+5:'пятница',
+6:'суббота',
+7:'воскресенье'
+}
+alert(daysWeek[day]); */
+
+/* Задача 4
+let calculator = {
+   
+    read: function() {
+    this.a = prompt("Введите А");
+    this.b = prompt("Введите В");
+    },
+    sum: function(){
+    return +this.a + +this.b;
+
+    },
+    mul: function(){
+    return this.a * this.b;
+
+    }
+    
+};
+calculator.read();
+alert ('Cумма А и В = ' +calculator.sum());
+alert ('Произведение А и В = ' +calculator.mul());
+*/
+
+/* Задача 5
+function sumSalaries() {
+    var sum=0;
+for (let key in salaries) {
+    sum=sum+salaries[key];
+   
+     }
+   return sum;
+}
+let salaries = {
+'Ann':100,
+'Mikle':300,
+'Nick':150	
+};
+alert (sumSalaries(salaries));
+*/
+
+/* Задача 6
+
+function pow(x,n) {
+    var result=x;
+    for (let i = 1; i < n; i++){
+        result*=x;
+        
+    }
+    return result;
+}
+alert (pow(2,3));
+*/
+
+
+function task3(x,step) {
+    var result=x;
+    
+        result*=x;
+        
+        return result;
+}
+function step(task3) {
+     var result1=task3;
+     result1*=task3;
+     return result1;
+    }
+    
+    alert (step(task3(3)));
+
+
+</script>
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
